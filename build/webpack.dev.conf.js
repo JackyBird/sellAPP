@@ -50,7 +50,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         res.json({
           errno: 0,
           data: seller
-        })//接口返回json数据，上面配置的数据seller就赋值给data请求后调用
+        })
       }),
       app.get('/api/goods', (req, res) => {
         res.json({
