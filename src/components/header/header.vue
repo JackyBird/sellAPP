@@ -1,11 +1,17 @@
 <template>
   <div class="header">
-      我是header
+      <div class=""></div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    seller: {
+      type: Object
+    }
+  }
+};
 </script>
 
 <style lang="stylus">
