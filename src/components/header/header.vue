@@ -50,6 +50,7 @@ export default {
 
   .header
     position relative
+    overflow hidden
     color #fff
     background rgba(7, 17, 27, 0.5)
     .content-wrapper
@@ -154,5 +155,9 @@ export default {
       width: 100%
       height: 100%
       z-index: -1
-      filter: blur(10px)
+      filter: blur(4px)
+      img
+        width: 100%;
+        height: auto;
+        margin-top -33.3333%
 </style>
